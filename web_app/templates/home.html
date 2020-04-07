@@ -1,21 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My App</title>
-</head>
-<body>
-    
-    <h1>This is a heading</h1>
+{% extends "layout.html" %}
 
-    <p>This is a paragraph</p>
+{% block content %}
 
-    <ul>
-        <li>First list item</li>
-        <li>Second list item</li>
-        <li>Third list item</li>
-    </ul>
+<h1>This is a heading</h1>
 
-</body>
-</html>
+<p>This is a paragraph</p>
+
+<ul>
+    <li>First list item</li>
+    <li>Second list item</li>
+    <li>Third list item</li>
+</ul>
+
+{% endblock %}
